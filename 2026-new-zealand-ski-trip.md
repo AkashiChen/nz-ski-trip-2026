@@ -267,6 +267,78 @@
 | Wānaka | Wanaka Hotel、Archway、Edgewater | Edgewater 2 卧公寓、Oakridge Family Apartment、Hampshire Wānaka | 厨房、洗衣/烘干、停车、滑雪装备存放 | 8/19–8/22 |
 | Auckland Airport | Ibis Budget、Heartland、Novotel | 两间 Heartland/JetPark/Ibis；预算足选 Novotel | 机场接驳/步行、24 小时前台、早班机便利 | 8/24–8/25 |
 
+### 住宿圈地图截图与最低公开价
+
+> 截图生成时间：2026-06-25。截图用于理解住宿圈、生活配套和去目的地路线的相对关系，不代表 2026-08 出行当天实时路况。酒店价格为 2026-06-25 可公开读取的多平台最低价/近 30 天价/平台展示价；部分平台无法直接读取 8/16–8/25 目标日期下单页，因此这里只用于排序和预算，最终预订必须重新输入准确日期、人数、儿童年龄和房型。
+
+#### Queenstown CBD 住宿圈：Holiday Inn Express / Ramada / mi-pad
+
+![Queenstown CBD hotels to Coronet Peak](assets/accommodation-map-screenshots/accom-queenstown-cbd-coronet.png)
+
+- **生活配套**：餐厅、咖啡、酒吧、湖边步道、雪具店和便利店集中；适合不自驾情侣。
+- **去 Coronet Peak**：截图显示从中心区酒店圈串到 Coronet Peak 的路线；建议 8/17 坐 NZSki Ski Bus。
+- **去 The Remarkables**：同一住宿圈也可服务 8/18，路线截图如下。
+
+![Queenstown CBD hotels to The Remarkables](assets/accommodation-map-screenshots/accom-queenstown-cbd-remarkables.png)
+
+#### Frankton / Remarkables Park 住宿圈：Driftaway / Sudima Five Mile / Holiday Inn Remarkables Park
+
+![Frankton accommodation to The Remarkables](assets/accommodation-map-screenshots/accom-frankton-remarkables.png)
+
+- **生活配套**：机场、Five Mile 商圈、超市、加油、停车和补给更方便。
+- **去 The Remarkables**：比 Queenstown CBD 更顺路；适合 5 人自驾组。
+- **取舍**：晚餐、湖边散步、Milford Sound 一日团集合不如 Queenstown CBD 方便。
+
+#### Wānaka 镇中心住宿圈：Wanaka Hotel / Archway / Hampshire Wānaka
+
+![Wānaka town accommodation to Cardrona](assets/accommodation-map-screenshots/accom-wanaka-town-cardrona.png)
+
+- **生活配套**：餐厅、咖啡、New World 超市、湖边、药店和滑雪用品店更容易步行解决。
+- **去 Cardrona**：截图显示从 Wānaka 镇中心住宿圈串到 Cardrona Alpine Resort 的路线；适合 8/20。
+- **取舍**：镇中心吃饭方便，但湖景和安静度不如 Edgewater。
+
+#### Wānaka 湖边/南侧住宿圈：Edgewater / Oakridge
+
+![Wānaka lake accommodation to Treble Cone](assets/accommodation-map-screenshots/accom-wanaka-lake-treble-cone.png)
+
+- **生活配套**：Edgewater 湖边体验强，Oakridge 更偏度假公寓和停车；两者都更适合有车或短途打车。
+- **去 Treble Cone**：Edgewater 去 Treble Cone 略顺；适合 8/21 中高级日。
+- **取舍**：Edgewater 不如镇中心吃饭方便；Oakridge 不自驾不推荐。
+
+#### Auckland Airport 住宿圈：Novotel / Ibis Budget / Heartland / JetPark
+
+![Auckland Airport hotels](assets/accommodation-map-screenshots/accom-auckland-airport-hotels.png)
+
+- **生活配套**：机场餐饮、便利店、租车点、酒店接驳和航站楼配套为主。
+- **去机场**：Novotel 最省心，适合步行到国际航站楼；Ibis / Heartland / JetPark 需确认接驳或短途出租。
+- **取舍**：只为防误机和过夜，不建议这晚安排奥克兰市区观光。
+
+### 各平台比价后的最低公开价
+
+| 地点 | 住宿候选 | 适合场景 | 可读平台对比 | 最低公开价 | 约人民币/晚 | 口径说明 |
+|---|---|---|---|---:|---:|---|
+| Queenstown CBD | Holiday Inn Express & Suites Queenstown | 2 人性价比、含早餐倾向 | KAYAK `US$99`；Trivago `US$151`；同类页常见 `US$150+` | `US$99` | `¥674` | KAYAK 价通常未含全部现场税费；官方/OTA 下单页需复核 |
+| Queenstown CBD | Ramada Queenstown Central | 2 人性价比、位置好 | Expedia/Trivago `US$131–166` | `US$131` | `¥892` | 停车另计，Expedia 显示自助停车约 `NZD30/晚` |
+| Queenstown CBD | mi-pad Queenstown | 2 人预算、轻行李 | KAYAK 近两周最低 `US$99`；Expedia 可读设施信息 | `US$99` | `¥674` | 房间偏紧凑，适合不做饭、不带大件雪具 |
+| Queenstown CBD 北侧 | Hampshire Queenstown Lakeview | 5 人预算/holiday park | KAYAK `US$66`；Expedia `US$112` | `US$66` | `¥449` | 最低价可能为基础房型；多人需查 cabin/unit |
+| Queenstown CBD 北侧 | Queenstown Holiday Park Creeksyde | 5 人预算、厨房洗衣 | Destination Queenstown `from NZD65`；KAYAK `US$221`；第三方站 `US$103` | `NZD65` | `¥250` | `NZD65` 很可能是营位/基础价；多人独立房型通常高很多 |
+| Frankton | Driftaway Queenstown | 5 人自驾、停车补给 | Expedia `US$93`；KAYAK `US$116`；官网有冬季连住优惠 | `US$93` | `¥633` | 适合有车，去市中心晚餐不如 CBD 方便 |
+| Wānaka 镇中心 | Wanaka Hotel | 2 人性价比 | Trip.com `US$96–102`；Hotels.com 可读同类价 | `US$96` | `¥654` | 镇中心吃饭方便，部分房型无电梯需注意行李 |
+| Wānaka 镇中心 | Archway Motels & Chalets | 2 人/家庭厨房 | KAYAK `US$114`；Expedia 可读设施 | `US$114` | `¥776` | 有 motel/chalet 属性，适合自理和停车 |
+| Wānaka 湖边 | Edgewater Hotel | 情侣舒适、5 人公寓 | Trip.com / Hotels.com `US$122`；KAYAK `US$161` | `US$122` | `¥831` | 湖边强项，2 卧公寓需按目标日期单独查 |
+| Wānaka 南侧 | Oakridge Resort Lake Wānaka | 5 人家庭、公寓/停车 | KAYAK `US$105`；Trip.com `US$109+` / 平均价更高 | `US$105` | `¥715` | 有车更合适；去镇中心吃饭需开车 |
+| Wānaka holiday park | Hampshire Wānaka | 预算/家庭厨房 | Trip.com `US$47–59`；NZ 官方 `NZD35–155`；Klook `US$67.87` | `US$47` | `¥320` | 最低价可能为基础 cabin/营地；自带卫浴房型更高 |
+| Auckland Airport | ibis budget Auckland Airport | 回程过夜省钱 | Trip.com `US$74–75`；KAYAK `US$88+` | `US$74` | `¥504` | 房间小，但周边机场商圈配套较方便 |
+| Auckland Airport | Heartland Hotel Auckland Airport | 机场过夜性价比 | KAYAK `US$85`；Expedia `US$106` | `US$85` | `¥579` | 官方显示距离机场约 3km，提供 24/7 接驳 |
+| Auckland Airport | JetPark Hotel Auckland Airport | 机场接驳、家庭友好 | Expedia `US$80`；KAYAK `US$76–81` | `US$76` | `¥518` | 有免费机场接驳，适合两间房方案 |
+| Auckland Airport | Novotel Auckland Airport | 早班机最稳 | Trip.com `US$127`；KAYAK `US$138`；Expedia `US$167` | `US$127` | `¥865` | 航站楼旁，贵但最省心 |
+
+**排序结论**：
+
+- **2 人情侣优先**：Queenstown 选 Ramada / Holiday Inn Express，Wānaka 选 Wanaka Hotel 或 Edgewater，Auckland 选 Ibis / Heartland；舒适优先再升级 Novotel。
+- **5 人组合优先**：Queenstown 选 Driftaway / Hampshire Lakeview / Creeksyde，Wānaka 选 Edgewater 2 卧或 Oakridge / Hampshire Wānaka，Auckland 选 JetPark / Heartland 两间房。
+- **不要只按最低价订**：最低公开价常对应营位、共享卫浴、无早餐、不可取消或小房型；滑雪行程更应优先看洗衣烘干、停车、厨房、接驳和取消政策。
+
 ### 2 人情侣住宿组合
 
 | 档位 | Queenstown 5 晚 | Wānaka 3 晚 | Auckland Airport 1 晚 | 9 晚房费估算 |
@@ -522,8 +594,21 @@
 - SkyDrive Queenstown–Wānaka shuttle：<https://www.skydrive.co.nz/queenstown/>
 - Trip.com Queenstown 酒店价格与 8 月均价：<https://www.trip.com/hotels/queenstown-hotels-list-3860/>
 - Trivago Queenstown 住宿比价：<https://www.trivago.com/en-US/odr/hotels-queenstown-new-zealand?search=200-61352>
+- KAYAK Holiday Inn Express Queenstown 比价：<https://www.kayak.com/Queenstown-Hotels-Holiday-Inn-Express-Suites-Queenstown.5921959.ksp>
+- Expedia Ramada Queenstown Central 价格与停车信息：<https://www.expedia.com/Queenstown-Hotels-Ramada-By-Wyndham-Queenstown-Central.h37408030.Hotel-Information>
+- KAYAK mi-pad Queenstown 比价：<https://www.kayak.com/Queenstown-Hotels-Mi-Pad-Smart-Hotel.3990296.ksp>
+- KAYAK Hampshire Queenstown Lakeview 比价：<https://www.kayak.com/Queenstown-Hotels-Hampshire-Holiday-Parks---Queenstown-Lakeview.426468.ksp>
+- Destination Queenstown Creeksyde 官方列表：<https://www.queenstownnz.co.nz/listing/queenstown-holiday-park-creeksyde/1603/>
+- Expedia Driftaway Queenstown 价格：<https://www.expedia.com/Queenstown-Hotels-Driftaway-Queenstown.h120534542.Hotel-Information>
 - Trip.com Wānaka 酒店价格与 8 月均价：<https://www.trip.com/hotels/wanaka-hotels-list-3992/>
+- Trip.com Edgewater Hotel Wānaka：<https://us.trip.com/hotels/wanaka-hotel-detail-2198195/edgewater-hotel-wanaka/>
+- KAYAK Oakridge Resort Lake Wānaka 比价：<https://www.kayak.com/Wanaka-Hotels-Oakridge-Resort-Lake-Wanaka.156532.ksp>
+- Trip.com Hampshire Holiday Parks Wānaka：<https://www.trip.com/hotels/wanaka-hotel-detail-9029950/wanaka-lakeview-holiday-park/>
+- NewZealand.com Hampshire Wānaka 官方价格范围：<https://www.newzealand.com/us/plan/business/wanaka-lakeview-holiday-park/>
 - Trip.com Auckland Airport 周边酒店价格：<https://www.trip.com/hotels/auckland-auckland-international-airport/hotels-c678a4325424/>
+- KAYAK Heartland Hotel Auckland Airport 比价：<https://www.kayak.com/Mangere-Hotels-Heartland-Hotel-Auckland-Airport.308171.ksp>
+- KAYAK JetPark Hotel Auckland Airport 比价：<https://www.kayak.com/Auckland-Hotels-Jet-Park-Hotel-Conference-Centre.4244.ksp>
+- Expedia JetPark Hotel Auckland Airport 价格：<https://www.expedia.com/Auckland-Hotels-Jet-Park-Hotel-Auckland-Airport.h522358.Hotel-Information>
 - Holiday Inn Express & Suites Queenstown 官方酒店信息：<https://www.ihg.com/holidayinnexpress/hotels/us/en/queenstown/zqnqt/hoteldetail>
 - Immigration New Zealand Visitor Visa：<https://www.immigration.govt.nz/visas/visitor-visa/>
 - 中国公民 Visitor Visa 申请指南：<https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/providing-evidence-and-documents-to-support-your-visa-application/visitor-visa-application-guide-for-citizens-of-china/>
