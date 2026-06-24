@@ -69,7 +69,24 @@
 | 8/23 | Queenstown CBD 住宿圈 | Milford Sound via Te Anau | 单程 `约 290 km / 4–5 小时`；一日团通常 `12–13 小时` | 首选大巴 + 游船一日团。冬季不建议游客自驾当天往返，疲劳和山路风险高。 | [Google 路线](https://www.google.com/maps/dir/?api=1&origin=Queenstown+New+Zealand&destination=Milford+Sound+New+Zealand&travelmode=driving&waypoints=Te+Anau+New+Zealand) / [高德](https://www.amap.com/search?query=Milford%20Sound%20Te%20Anau%20Queenstown%20New%20Zealand) |
 | 8/24 | Queenstown CBD → Auckland Airport 住宿圈 | Skyline、Queenstown Airport、Auckland Airport 酒店 | CBD 到 Skyline 下站步行 `约 10–15 分钟`；CBD 到 ZQN `约 9 km / 15–25 分钟`；AKL 到机场酒店 `约 0–3 km` | 上午只排轻量活动；下午飞 AKL。Novotel 适合步行到航站楼，Ibis/Heartland/JetPark 需确认接驳或短途出租。 | [Google 路线](https://www.google.com/maps/dir/?api=1&origin=Queenstown+New+Zealand&destination=Queenstown+Airport+New+Zealand&travelmode=driving&waypoints=Skyline+Queenstown+New+Zealand) / [高德](https://www.amap.com/search?query=Novotel%20Auckland%20Airport%20Ibis%20Budget%20Heartland%20Hotel%20Auckland%20Airport) |
 
-### 2.2 住宿周边配套与选择逻辑
+### 2.2 Google 路线截图
+
+> 截图生成时间：2026-06-25。截图用于理解路线和住宿圈关系，不代表 2026-08 出行当天实时路况；请以出发当天 Google Maps / 高德地图、雪场 road status 和租车公司要求为准。截图保留 Google Maps 标识和版权信息。
+
+| 日期 | 路线截图 |
+|---|---|
+| 8/16 Queenstown Airport → Queenstown CBD | ![8/16 Queenstown Airport 到 Queenstown CBD](assets/google-route-screenshots/route-0816-zqn-to-queenstown.png) |
+| 8/17 Queenstown → Coronet Peak | ![8/17 Queenstown 到 Coronet Peak](assets/google-route-screenshots/route-0817-coronet-peak.png) |
+| 8/18 Queenstown → The Remarkables | ![8/18 Queenstown 到 The Remarkables](assets/google-route-screenshots/route-0818-remarkables.png) |
+| 8/19 Queenstown → Arrowtown → Cardrona Hotel → Wānaka | ![8/19 Queenstown 经 Arrowtown 和 Cardrona Hotel 到 Wānaka](assets/google-route-screenshots/route-0819-queenstown-wanaka.png) |
+| 8/20 Wānaka → Cardrona Alpine Resort | ![8/20 Wānaka 到 Cardrona Alpine Resort](assets/google-route-screenshots/route-0820-wanaka-cardrona.png) |
+| 8/21 Wānaka → Treble Cone | ![8/21 Wānaka 到 Treble Cone](assets/google-route-screenshots/route-0821-wanaka-treble-cone.png) |
+| 8/22 Wānaka → That Wānaka Tree → Mount Iron → Onsen → Queenstown | ![8/22 Wānaka 经 That Wānaka Tree、Mount Iron、Onsen 到 Queenstown](assets/google-route-screenshots/route-0822-wanaka-queenstown-onsen.png) |
+| 8/23 Queenstown → Te Anau → Milford Sound | ![8/23 Queenstown 经 Te Anau 到 Milford Sound](assets/google-route-screenshots/route-0823-queenstown-milford.png) |
+| 8/24 Queenstown → Skyline → Queenstown Airport | ![8/24 Queenstown 经 Skyline 到 Queenstown Airport](assets/google-route-screenshots/route-0824-queenstown-airport.png) |
+| 8/24 Auckland Airport → Airport hotel cluster | ![8/24 Auckland Airport 周边机场酒店圈](assets/google-route-screenshots/route-0824-akl-airport-hotels.png) |
+
+### 2.3 住宿周边配套与选择逻辑
 
 | 住宿圈/酒店组 | 周边配套 | 交通便利性 | 适合人群 | 主要取舍 |
 |---|---|---|---|---|
