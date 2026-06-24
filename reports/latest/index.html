@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10233f">
   <title>2026 新西兰滑雪旅行攻略</title>
   <style>
     :root {
@@ -15,12 +16,19 @@
       --warn: #7a4e00;
       --warn-soft: #fff6df;
     }
+    * {
+      box-sizing: border-box;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
     body {
       margin: 0;
       background: #eef2f7;
       color: var(--ink);
       font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
       line-height: 1.65;
+      -webkit-text-size-adjust: 100%;
     }
     main {
       max-width: 1040px;
@@ -42,6 +50,7 @@
       padding-top: 20px;
       border-top: 1px solid var(--line);
       color: var(--accent);
+      scroll-margin-top: 78px;
     }
     h3 {
       font-size: 18px;
@@ -100,6 +109,33 @@
       color: var(--muted);
       margin-bottom: 4px;
     }
+    .quick-nav {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      margin: 0 -8px 28px;
+      padding: 10px 8px;
+      background: rgba(255, 255, 255, .94);
+      border-top: 1px solid rgba(216, 222, 233, .9);
+      border-bottom: 1px solid rgba(216, 222, 233, .9);
+      backdrop-filter: blur(14px);
+    }
+    .quick-nav a {
+      flex: 0 0 auto;
+      padding: 8px 12px;
+      border: 1px solid #cfe0f4;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: #173c66;
+      font-size: 14px;
+      line-height: 1.2;
+      text-decoration: none;
+      white-space: nowrap;
+    }
     .image-grid {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -118,6 +154,11 @@
       border-collapse: collapse;
       margin: 16px 0 24px;
       font-size: 14px;
+      display: block;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      border: 1px solid var(--line);
+      border-radius: 12px;
     }
     th, td {
       border: 1px solid var(--line);
@@ -137,6 +178,7 @@
     }
     a {
       color: var(--accent);
+      overflow-wrap: anywhere;
     }
     .small {
       color: var(--muted);
@@ -145,14 +187,88 @@
     @media print {
       body { background: #fff; }
       main { margin: 0; box-shadow: none; border-radius: 0; padding: 28px; max-width: none; }
+      .quick-nav { display: none; }
       a { color: #000; text-decoration: none; }
       h2 { break-after: avoid; }
       table { break-inside: avoid; }
     }
     @media (max-width: 820px) {
-      main { padding: 24px; margin: 0; border-radius: 0; }
+      body { background: #fff; }
+      main {
+        padding: 22px 16px 32px;
+        margin: 0;
+        border-radius: 0;
+        box-shadow: none;
+      }
+      h1 { font-size: 28px; }
+      h2 { font-size: 21px; margin-top: 32px; }
+      h3 { font-size: 17px; }
       .meta, .summary, .image-grid { grid-template-columns: 1fr; }
-      table { font-size: 13px; }
+      .meta {
+        gap: 8px;
+        padding: 12px;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        background: #fbfcfe;
+      }
+      .summary {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+      }
+      .card { padding: 12px; }
+      .hero, figure {
+        margin-inline: -4px;
+        border-radius: 12px;
+      }
+      table {
+        font-size: 13px;
+        width: 100%;
+      }
+      th, td {
+        min-width: 128px;
+        padding: 9px 10px;
+      }
+      th:first-child,
+      td:first-child {
+        min-width: 86px;
+      }
+    }
+    @media (max-width: 640px) {
+      main { padding: 18px 12px 28px; }
+      h1 { font-size: 25px; }
+      h2 { font-size: 20px; line-height: 1.35; }
+      .note {
+        padding: 11px 12px;
+        border-radius: 9px;
+      }
+      .summary { grid-template-columns: 1fr; }
+      .quick-nav {
+        margin-inline: -12px;
+        padding-inline: 12px;
+      }
+      .quick-nav a {
+        font-size: 13px;
+        padding: 8px 10px;
+      }
+      .hero, figure {
+        margin-inline: -12px;
+        border-left: 0;
+        border-right: 0;
+        border-radius: 0;
+      }
+      table {
+        margin-inline: -12px;
+        width: calc(100% + 24px);
+        border-left: 0;
+        border-right: 0;
+        border-radius: 0;
+      }
+      th, td {
+        min-width: 136px;
+      }
+      ul, ol {
+        padding-left: 1.2rem;
+      }
     }
   </style>
 </head>
@@ -168,6 +284,16 @@
     <div><strong>检索日期：</strong>雪票/交通 2026-06-21；住宿 2026-06-25</div>
   </div>
   <div class="note">预订原则：先签证，再订不可退项目。酒店优先订可取消；雪票和内陆机票在签证与国际段明确后再锁。文档中的雪道图优先使用官方地图资源；出发前仍需以雪场官网和 App 当天信息为准。</div>
+  <nav class="quick-nav" aria-label="手机端快捷导航">
+    <a href="#summary">结论</a>
+    <a href="#daily-itinerary">每日行程</a>
+    <a href="#maps-ski-areas">地图雪场</a>
+    <a href="#accommodation">住宿比价</a>
+    <a href="#transport">小交通</a>
+    <a href="#budget">预算</a>
+    <a href="#qa">Q&A</a>
+    <a href="#sources">来源</a>
+  </nav>
   <div class="hero">
     <img src="assets/official-maps/nzski-queenstown-transport-map.jpg" alt="NZSki 皇后镇雪场交通地图">
     <div class="caption">NZSki 官方皇后镇雪场交通地图，适合理解 Queenstown、Coronet Peak、The Remarkables 和主要接驳点之间的位置关系。来源：NZSki 官方媒体资源。</div>
@@ -180,7 +306,7 @@
     <div class="card"><strong>5 人预算</strong>¥72,000–102,000/团 + 国际机票</div>
   </div>
 
-  <h2>1. 行程结论</h2>
+  <h2 id="summary">1. 行程结论</h2>
   <ul>
     <li><strong>雪质：</strong>皇后镇官方说明 7–8 月通常是雪况最佳的冬季高峰；Cardrona/Treble Cone 也说明 8 月通常是降雪更集中的月份。</li>
     <li><strong>性价比：</strong>深圳往返奥克兰国际机票更便宜，且 8/17–8/21 正好是工作日滑雪。</li>
@@ -188,7 +314,7 @@
     <li><strong>风险控制：</strong>最后一晚住奥克兰机场附近，避免冬季皇后镇航班延误影响国际段。</li>
   </ul>
 
-  <h2>2. 每日详细行程</h2>
+  <h2 id="daily-itinerary">2. 每日详细行程</h2>
   <table>
     <thead>
       <tr><th>日期</th><th>城市/住宿</th><th>行程安排</th><th>交通</th><th>重点开销</th></tr>
@@ -288,7 +414,7 @@
     </tbody>
   </table>
 
-  <h2>3. 官方地图、雪道图与目的地特点</h2>
+  <h2 id="maps-ski-areas">3. 官方地图、雪道图与目的地特点</h2>
   <h3>地图使用说明</h3>
   <ul>
     <li>本文档优先使用官方雪场/交通地图资源，不再使用普通风景照做介绍。</li>
@@ -375,7 +501,7 @@
     </tbody>
   </table>
 
-  <h2>4. 住宿建议：按每日活动匹配</h2>
+  <h2 id="accommodation">4. 住宿建议：按每日活动匹配</h2>
   <p class="note">住宿不是按城市机械切换，而是按第二天集合点、雪场通勤、洗烘装备、停车和退房压力来选。下表价格为 2026-06-25 可公开读取的“from/近期价/均价”口径，不能替代 2026-08-15 至 08-25 下单页实时报价；滑雪季和周末建议预留 20%–40% 浮动。</p>
 
   <h3>每日住宿执行表</h3>
@@ -492,7 +618,7 @@
   </table>
   <p><strong>5 人选择建议：</strong>优先订带厨房、洗衣、烘干和停车的 apartment 或 holiday park unit。滑雪服、保暖层、手套和袜子每天都要烘干；对家庭组来说，洗烘和厨房通常比湖景更重要。</p>
 
-  <h2>5. 新西兰小交通</h2>
+  <h2 id="transport">5. 新西兰小交通</h2>
   <ul>
     <li><strong>AKL ↔ ZQN：</strong>建议买含托运行李票；奥克兰机场国际/国内航站楼有免费接驳巴士。</li>
     <li><strong>皇后镇市内：</strong>购买 Bee Card，Queenstown Orbus 成人 Bee Card 票价为 NZD 2.50/次。</li>
@@ -501,7 +627,7 @@
     <li><strong>5 人租车：</strong>建议 7 座车，不建议 5 座 SUV；雪场山路当天看道路和雪链要求。</li>
   </ul>
 
-  <h2>6. 预算总览</h2>
+  <h2 id="budget">6. 预算总览</h2>
   <h3>2 人情侣</h3>
   <table>
     <thead>
@@ -542,7 +668,7 @@
     </tbody>
   </table>
 
-  <h2>7. 预订清单</h2>
+  <h2 id="booking-checklist">7. 预订清单</h2>
   <h3>第一优先级</h3>
   <ol>
     <li>确认护照有效期和新西兰 Visitor Visa。</li>
@@ -565,7 +691,7 @@
     <li>根据天气决定是否将 Treble Cone 改为 Cardrona，或把 8/22 用作补滑日。</li>
   </ol>
 
-  <h2>8. 装备建议</h2>
+  <h2 id="gear">8. 装备建议</h2>
   <h3>建议自带</h3>
   <ul>
     <li>滑雪服/冲锋衣、雪裤、手套或连指手套、雪镜。</li>
@@ -579,7 +705,7 @@
   <h3>不建议现场临时买</h3>
   <p>合脚滑雪袜、贴身保暖层、舒适手套和护具。雪场和镇上可以买到，但价格高、尺码不稳定，临时购买会浪费第一天滑雪时间。</p>
 
-  <h2>9. 常见 Q&A</h2>
+  <h2 id="qa">9. 常见 Q&A</h2>
   <h3>Q1：为什么不直接住皇后镇全程？</h3>
   <p>可以，但会牺牲性价比和通勤体验。Cardrona 和 Treble Cone 更靠近瓦纳卡；住瓦纳卡 3 晚能减少往返时间，也能体验更安静的湖区。</p>
   <h3>Q2：Treble Cone 是否适合儿童或初学者？</h3>
@@ -601,7 +727,7 @@
   <h3>Q10：旅行保险怎么选？</h3>
   <p>必须覆盖滑雪/单板运动、医疗救援、航班延误、行李延误和取消损失。注意有些保险把滑雪列为高风险运动，需要额外购买运动保障。</p>
 
-  <h2>10. 备选方案</h2>
+  <h2 id="alternatives">10. 备选方案</h2>
   <h3>省钱版</h3>
   <ul>
     <li>Milford Sound 改为 Glenorchy + Arrowtown。</li>
@@ -623,7 +749,7 @@
     <li>前提是团队体力好，且天气稳定。</li>
   </ul>
 
-  <h2>11. 官方地图来源与使用说明</h2>
+  <h2 id="official-maps">11. 官方地图来源与使用说明</h2>
   <p class="small">本文档的地图和雪道图优先使用官方雪场/交通页面资源，并以本地文件形式保存在 <code>assets/official-maps/</code> 下。地图仅用于个人行程规划；外部公开分享或商业使用前，应再次核对各雪场官网的版权和使用条款。出发前请重新打开官方页面确认是否已更新为 2026 最新版本。</p>
   <table class="small">
     <thead>
@@ -639,7 +765,7 @@
     </tbody>
   </table>
 
-  <h2>12. 主要来源</h2>
+  <h2 id="sources">12. 主要来源</h2>
   <ul class="small">
     <li><a href="https://www.queenstownnz.co.nz/things-to-do/skiing-and-snowboarding/">Queenstown 官方滑雪信息</a></li>
     <li><a href="https://www.queenstownnz.co.nz/things-to-do/skiing-and-snowboarding/snow-reports-and-forecasts/">Queenstown 雪况与预报</a></li>
