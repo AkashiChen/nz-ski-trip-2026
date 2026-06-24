@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>2026 New Zealand Ski Trip - Daily Routes &amp; Accommodation Zones</name>
+    <description>For Google My Maps import. Accommodation zones are approximate circles; daily route lines are itinerary references, not turn-by-turn navigation.</description>
+    <Style id="zoneStyle"><LineStyle><color>ff0055ff</color><width>2</width></LineStyle><PolyStyle><color>330055ff</color></PolyStyle></Style>
+    <Style id="routeStyle"><LineStyle><color>ff1b8a5a</color><width>4</width></LineStyle></Style>
+    <Style id="hotelStyle"><IconStyle><color>ff7f00ff</color><scale>1.05</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href></Icon></IconStyle></Style>
+    <Style id="pointStyle"><IconStyle><color>ff2f55ff</color><scale>1.0</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon></IconStyle></Style>
+    <Folder>
+      <name>住宿圈选区域</name>
+      <Placemark>
+        <name>Queenstown CBD 住宿圈</name>
+        <description>不自驾首选。覆盖 Holiday Inn Express、Ramada、mi-pad、Creeksyde、Hampshire Lakeview 一带。</description>
+        <styleUrl>#zoneStyle</styleUrl>
+        <Polygon><outerBoundaryIs><LinearRing><coordinates>168.6625000,-45.0246054,0 168.6633872,-45.0246328,0 168.6642676,-45.0247147,0 168.6651345,-45.0248505,0 168.6659815,-45.0250393,0 168.6668019,-45.0252794,0 168.6675896,-45.0255692,0 168.6683386,-45.0259064,0 168.6690431,-45.0262885,0 168.6696979,-45.0267124,0 168.6702979,-45.0271752,0 168.6708386,-45.0276731,0 168.6713159,-45.0282024,0 168.6717260,-45.0287591,0 168.6720660,-45.0293389,0 168.6723331,-45.0299375,0 168.6725254,-45.0305502,0 168.6726415,-45.0311725,0 168.6726803,-45.0317995,0 168.6726417,-45.0324266,0 168.6725259,-45.0330489,0 168.6723337,-45.0336617,0 168.6720668,-45.0342603,0 168.6717270,-45.0348402,0 168.6713170,-45.0353969,0 168.6708398,-45.0359263,0 168.6702992,-45.0364243,0 168.6696992,-45.0368871,0 168.6690444,-45.0373112,0 168.6683398,-45.0376933,0 168.6675907,-45.0380306,0 168.6668029,-45.0383204,0 168.6659823,-45.0385606,0 168.6651352,-45.0387494,0 168.6642680,-45.0388853,0 168.6633874,-45.0389672,0 168.6625000,-45.0389946,0 168.6616126,-45.0389672,0 168.6607320,-45.0388853,0 168.6598648,-45.0387494,0 168.6590177,-45.0385606,0 168.6581971,-45.0383204,0 168.6574093,-45.0380306,0 168.6566602,-45.0376933,0 168.6559556,-45.0373112,0 168.6553008,-45.0368871,0 168.6547008,-45.0364243,0 168.6541602,-45.0359263,0 168.6536830,-45.0353969,0 168.6532730,-45.0348402,0 168.6529332,-45.0342603,0 168.6526663,-45.0336617,0 168.6524741,-45.0330489,0 168.6523583,-45.0324266,0 168.6523197,-45.0317995,0 168.6523585,-45.0311725,0 168.6524746,-45.0305502,0 168.6526669,-45.0299375,0 168.6529340,-45.0293389,0 168.6532740,-45.0287591,0 168.6536841,-45.0282024,0 168.6541614,-45.0276731,0 168.6547021,-45.0271752,0 168.6553021,-45.0267124,0 168.6559569,-45.0262885,0 168.6566614,-45.0259064,0 168.6574104,-45.0255692,0 168.6581981,-45.0252794,0 168.6590185,-45.0250393,0 168.6598655,-45.0248505,0 168.6607324,-45.0247147,0 168.6616128,-45.0246328,0 168.6625000,-45.0246054,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Frankton / Remarkables Park 住宿圈</name>
+        <description>5 人自驾/机场便利备选。覆盖 Driftaway、机场、Five Mile、Remarkables Park 一带。</description>
+        <styleUrl>#zoneStyle</styleUrl>
+        <Polygon><outerBoundaryIs><LinearRing><coordinates>168.7280000,-45.0025115,0 168.7298845,-45.0025697,0 168.7317547,-45.0027437,0 168.7335963,-45.0030323,0 168.7353953,-45.0034333,0 168.7371381,-45.0039436,0 168.7388114,-45.0045593,0 168.7404025,-45.0052757,0 168.7418993,-45.0060875,0 168.7432903,-45.0069884,0 168.7445651,-45.0079716,0 168.7457138,-45.0090295,0 168.7467278,-45.0101542,0 168.7475993,-45.0113371,0 168.7483217,-45.0125692,0 168.7488895,-45.0138411,0 168.7492983,-45.0151432,0 168.7495451,-45.0164655,0 168.7496279,-45.0177980,0 168.7495461,-45.0191305,0 168.7493003,-45.0204528,0 168.7488924,-45.0217550,0 168.7483254,-45.0230272,0 168.7476037,-45.0242595,0 168.7467328,-45.0254427,0 168.7457192,-45.0265677,0 168.7445708,-45.0276260,0 168.7432961,-45.0286096,0 168.7419050,-45.0295108,0 168.7404080,-45.0303229,0 168.7388164,-45.0310397,0 168.7371425,-45.0316557,0 168.7353990,-45.0321662,0 168.7335992,-45.0325674,0 168.7317566,-45.0328561,0 168.7298855,-45.0330303,0 168.7280000,-45.0330885,0 168.7261145,-45.0330303,0 168.7242434,-45.0328561,0 168.7224008,-45.0325674,0 168.7206010,-45.0321662,0 168.7188575,-45.0316557,0 168.7171836,-45.0310397,0 168.7155920,-45.0303229,0 168.7140950,-45.0295108,0 168.7127039,-45.0286096,0 168.7114292,-45.0276260,0 168.7102808,-45.0265677,0 168.7092672,-45.0254427,0 168.7083963,-45.0242595,0 168.7076746,-45.0230272,0 168.7071076,-45.0217550,0 168.7066997,-45.0204528,0 168.7064539,-45.0191305,0 168.7063721,-45.0177980,0 168.7064549,-45.0164655,0 168.7067017,-45.0151432,0 168.7071105,-45.0138411,0 168.7076783,-45.0125692,0 168.7084007,-45.0113371,0 168.7092722,-45.0101542,0 168.7102862,-45.0090295,0 168.7114349,-45.0079716,0 168.7127097,-45.0069884,0 168.7141007,-45.0060875,0 168.7155975,-45.0052757,0 168.7171886,-45.0045593,0 168.7188619,-45.0039436,0 168.7206047,-45.0034333,0 168.7224037,-45.0030323,0 168.7242453,-45.0027437,0 168.7261155,-45.0025697,0 168.7280000,-45.0025115,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Wānaka 湖边/镇中心住宿圈</name>
+        <description>Cardrona/Treble Cone 基地。覆盖 Edgewater、Wanaka Hotel、Archway、Hampshire、Oakridge 周边。</description>
+        <styleUrl>#zoneStyle</styleUrl>
+        <Polygon><outerBoundaryIs><LinearRing><coordinates>169.1265000,-44.6792149,0 169.1289251,-44.6792902,0 169.1313318,-44.6795154,0 169.1337017,-44.6798889,0 169.1360169,-44.6804077,0 169.1382597,-44.6810680,0 169.1404131,-44.6818648,0 169.1424607,-44.6827919,0 169.1443870,-44.6838424,0 169.1461772,-44.6850081,0 169.1478178,-44.6862804,0 169.1492962,-44.6876495,0 169.1506012,-44.6891049,0 169.1517230,-44.6906357,0 169.1526528,-44.6922301,0 169.1533837,-44.6938761,0 169.1539100,-44.6955611,0 169.1542277,-44.6972723,0 169.1543345,-44.6989966,0 169.1542294,-44.7007210,0 169.1539132,-44.7024324,0 169.1533884,-44.7041176,0 169.1526589,-44.7057639,0 169.1517302,-44.7073588,0 169.1506095,-44.7088900,0 169.1493051,-44.7103460,0 169.1478271,-44.7117156,0 169.1461867,-44.7129885,0 169.1443963,-44.7141548,0 169.1424697,-44.7152059,0 169.1404214,-44.7161335,0 169.1382670,-44.7169308,0 169.1360230,-44.7175915,0 169.1337065,-44.7181107,0 169.1313350,-44.7184844,0 169.1289268,-44.7187098,0 169.1265000,-44.7187851,0 169.1240732,-44.7187098,0 169.1216650,-44.7184844,0 169.1192935,-44.7181107,0 169.1169770,-44.7175915,0 169.1147330,-44.7169308,0 169.1125786,-44.7161335,0 169.1105303,-44.7152059,0 169.1086037,-44.7141548,0 169.1068133,-44.7129885,0 169.1051729,-44.7117156,0 169.1036949,-44.7103460,0 169.1023905,-44.7088900,0 169.1012698,-44.7073588,0 169.1003411,-44.7057639,0 169.0996116,-44.7041176,0 169.0990868,-44.7024324,0 169.0987706,-44.7007210,0 169.0986655,-44.6989966,0 169.0987723,-44.6972723,0 169.0990900,-44.6955611,0 169.0996163,-44.6938761,0 169.1003472,-44.6922301,0 169.1012770,-44.6906357,0 169.1023988,-44.6891049,0 169.1037038,-44.6876495,0 169.1051822,-44.6862804,0 169.1068228,-44.6850081,0 169.1086130,-44.6838424,0 169.1105393,-44.6827919,0 169.1125869,-44.6818648,0 169.1147403,-44.6810680,0 169.1169831,-44.6804077,0 169.1192983,-44.6798889,0 169.1216682,-44.6795154,0 169.1240749,-44.6792902,0 169.1265000,-44.6792149,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Auckland Airport 过夜住宿圈</name>
+        <description>回程机场过夜。覆盖 Novotel、Ibis Budget、Heartland 等机场酒店。</description>
+        <styleUrl>#zoneStyle</styleUrl>
+        <Polygon><outerBoundaryIs><LinearRing><coordinates>174.7860000,-36.9789163,0 174.7883548,-36.9789984,0 174.7906917,-36.9792441,0 174.7929929,-36.9796515,0 174.7952409,-36.9802176,0 174.7974187,-36.9809380,0 174.7995096,-36.9818072,0 174.8014978,-36.9828186,0 174.8033682,-36.9839646,0 174.8051064,-36.9852365,0 174.8066993,-36.9866245,0 174.8081347,-36.9881180,0 174.8094018,-36.9897058,0 174.8104909,-36.9913758,0 174.8113936,-36.9931152,0 174.8121031,-36.9949109,0 174.8126140,-36.9967491,0 174.8129224,-36.9986158,0 174.8130259,-37.0004969,0 174.8129237,-37.0023781,0 174.8126166,-37.0042450,0 174.8121070,-37.0060834,0 174.8113985,-37.0078794,0 174.8104967,-37.0096192,0 174.8094085,-37.0112896,0 174.8081419,-37.0128779,0 174.8067068,-37.0143719,0 174.8051140,-37.0157605,0 174.8033757,-37.0170328,0 174.8015050,-37.0181793,0 174.7995163,-37.0191913,0 174.7974246,-37.0200609,0 174.7952459,-37.0207817,0 174.7929967,-37.0213481,0 174.7906943,-37.0217557,0 174.7883561,-37.0220016,0 174.7860000,-37.0220837,0 174.7836439,-37.0220016,0 174.7813057,-37.0217557,0 174.7790033,-37.0213481,0 174.7767541,-37.0207817,0 174.7745754,-37.0200609,0 174.7724837,-37.0191913,0 174.7704950,-37.0181793,0 174.7686243,-37.0170328,0 174.7668860,-37.0157605,0 174.7652932,-37.0143719,0 174.7638581,-37.0128779,0 174.7625915,-37.0112896,0 174.7615033,-37.0096192,0 174.7606015,-37.0078794,0 174.7598930,-37.0060834,0 174.7593834,-37.0042450,0 174.7590763,-37.0023781,0 174.7589741,-37.0004969,0 174.7590776,-36.9986158,0 174.7593860,-36.9967491,0 174.7598969,-36.9949109,0 174.7606064,-36.9931152,0 174.7615091,-36.9913758,0 174.7625982,-36.9897058,0 174.7638653,-36.9881180,0 174.7653007,-36.9866245,0 174.7668936,-36.9852365,0 174.7686318,-36.9839646,0 174.7705022,-36.9828186,0 174.7724904,-36.9818072,0 174.7745813,-36.9809380,0 174.7767591,-36.9802176,0 174.7790071,-36.9796515,0 174.7813083,-36.9792441,0 174.7836452,-36.9789984,0 174.7860000,-36.9789163,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>推荐住宿点位</name>
+      <Placemark>
+        <name>Holiday Inn Express &amp; Suites Queenstown</name>
+        <description>推荐住宿候选点位；价格和房型以预订页实时结果为准。</description>
+        <styleUrl>#hotelStyle</styleUrl>
+        <Point><coordinates>168.6666806,-45.0329593,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Ramada Queenstown Central</name>
+        <description>推荐住宿候选点位；价格和房型以预订页实时结果为准。</description>
+        <styleUrl>#hotelStyle</styleUrl>
+        <Point><coordinates>168.6660238,-45.0338685,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>mi-pad Queenstown</name>
+        <description>推荐住宿候选点位；价格和房型以预订页实时结果为准。</description>
+        <styleUrl>#hotelStyle</styleUrl>
+        <Point><coordinates>168.6628367,-45.0302704,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Hampshire Queenstown Lakeview</name>
+        <description>推荐住宿候选点位；价格和房型以预订页实时结果为准。</description>
+        <styleUrl>#hotelStyle</styleUrl>
+        <Point><coordinates>168.6554086,-45.0311676,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Queenstown Holiday Park Creeksyde</name>
+        <description>推荐住宿候选点位；价格和房型以预订页实时结果为准。</description>
+        <styleUrl>#hotelStyle</styleUrl>
+        <Point><coordinates>168.6600742,-45.0255228,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Driftaway Queenstown</name>
+        <description>推荐住宿候选点位；价格和房型以预订页实时结果为准。</description>
+        <styleUrl>#hotelStyle</styleUrl>
+        <Point><coordinates>168.7256406,-45.0173703,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Edgewater Wānaka</name>
+        <description>推荐住宿候选点位；价格和房型以预订页实时结果为准。</description>
+        <styleUrl>#hotelStyle</styleUrl>
+        <Point><coordinates>169.1124877,-44.6950238,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Oakridge Resort Lake Wānaka</name>
+        <description>推荐住宿候选点位；价格和房型以预订页实时结果为准。</description>
+        <styleUrl>#hotelStyle</styleUrl>
+        <Point><coordinates>169.1354345,-44.7148050,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Wanaka Hotel</name>
+        <description>推荐住宿候选点位；价格和房型以预订页实时结果为准。</description>
+        <styleUrl>#hotelStyle</styleUrl>
+        <Point><coordinates>169.1372848,-44.6942324,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Archway Motels &amp; Chalets Wānaka</name>
+        <description>推荐住宿候选点位；价格和房型以预订页实时结果为准。</description>
+        <styleUrl>#hotelStyle</styleUrl>
+        <Point><coordinates>169.1421463,-44.6929186,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Hampshire Holiday Parks Wānaka</name>
+        <description>推荐住宿候选点位；价格和房型以预订页实时结果为准。</description>
+        <styleUrl>#hotelStyle</styleUrl>
+        <Point><coordinates>169.1271606,-44.7018790,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Novotel Auckland Airport</name>
+        <description>推荐住宿候选点位；价格和房型以预订页实时结果为准。</description>
+        <styleUrl>#hotelStyle</styleUrl>
+        <Point><coordinates>174.7832731,-37.0040424,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>ibis budget Auckland Airport</name>
+        <description>推荐住宿候选点位；价格和房型以预订页实时结果为准。</description>
+        <styleUrl>#hotelStyle</styleUrl>
+        <Point><coordinates>174.7888544,-36.9985452,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Heartland Hotel Auckland Airport</name>
+        <description>推荐住宿候选点位；价格和房型以预订页实时结果为准。</description>
+        <styleUrl>#hotelStyle</styleUrl>
+        <Point><coordinates>174.7840963,-36.9838810,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>每日出行路线</name>
+      <Placemark>
+        <name>8/16 AKL 转机到 Queenstown</name>
+        <description>航班+市内接驳示意；不是道路导航。 KML 连线为行程示意，实际道路请打开 Google Maps 导航。</description>
+        <styleUrl>#routeStyle</styleUrl>
+        <LineString><tessellate>1</tessellate><coordinates>174.7903363,-37.0065512,0 168.7434399,-45.0193000,0 168.6610000,-45.0321923,0</coordinates></LineString>
+      </Placemark>
+      <Placemark>
+        <name>8/17 Queenstown ↔ Coronet Peak</name>
+        <description>Coronet Peak 热身滑雪；住 Queenstown CBD 最省心。 KML 连线为行程示意，实际道路请打开 Google Maps 导航。</description>
+        <styleUrl>#routeStyle</styleUrl>
+        <LineString><tessellate>1</tessellate><coordinates>168.6610000,-45.0321923,0 168.7388744,-44.9222017,0 168.6610000,-45.0321923,0</coordinates></LineString>
+      </Placemark>
+      <Placemark>
+        <name>8/18 Queenstown ↔ The Remarkables</name>
+        <description>The Remarkables 滑雪；建议用官方雪场巴士或按当天道路决定。 KML 连线为行程示意，实际道路请打开 Google Maps 导航。</description>
+        <styleUrl>#routeStyle</styleUrl>
+        <LineString><tessellate>1</tessellate><coordinates>168.6610000,-45.0321923,0 168.8168978,-45.0549855,0 168.6610000,-45.0321923,0</coordinates></LineString>
+      </Placemark>
+      <Placemark>
+        <name>8/19 Queenstown → Arrowtown → Cardrona Hotel → Wānaka</name>
+        <description>换城日兼观光；5 人租车更适合停留。 KML 连线为行程示意，实际道路请打开 Google Maps 导航。</description>
+        <styleUrl>#routeStyle</styleUrl>
+        <LineString><tessellate>1</tessellate><coordinates>168.6610000,-45.0321923,0 168.8350761,-44.9405627,0 169.0035338,-44.8815382,0 169.1364637,-44.6941691,0</coordinates></LineString>
+      </Placemark>
+      <Placemark>
+        <name>8/20 Wānaka ↔ Cardrona</name>
+        <description>Cardrona 滑雪日；适合家庭和混合水平。 KML 连线为行程示意，实际道路请打开 Google Maps 导航。</description>
+        <styleUrl>#routeStyle</styleUrl>
+        <LineString><tessellate>1</tessellate><coordinates>169.1364637,-44.6941691,0 168.9497926,-44.8657038,0 169.1364637,-44.6941691,0</coordinates></LineString>
+      </Placemark>
+      <Placemark>
+        <name>8/21 Wānaka ↔ Treble Cone</name>
+        <description>Treble Cone 滑雪日；天气/水平不稳可改 Cardrona。 KML 连线为行程示意，实际道路请打开 Google Maps 导航。</description>
+        <styleUrl>#routeStyle</styleUrl>
+        <LineString><tessellate>1</tessellate><coordinates>169.1364637,-44.6941691,0 168.8959500,-44.6327200,0 169.1364637,-44.6941691,0</coordinates></LineString>
+      </Placemark>
+      <Placemark>
+        <name>8/22 Wānaka → That Wānaka Tree / Mount Iron → Onsen → Queenstown</name>
+        <description>休整+回 Queenstown；Onsen 为可选项。 KML 连线为行程示意，实际道路请打开 Google Maps 导航。</description>
+        <styleUrl>#routeStyle</styleUrl>
+        <LineString><tessellate>1</tessellate><coordinates>169.1364637,-44.6941691,0 169.1175644,-44.6983546,0 169.1554322,-44.6936142,0 168.6854275,-44.9809952,0 168.6610000,-45.0321923,0</coordinates></LineString>
+      </Placemark>
+      <Placemark>
+        <name>8/23 Queenstown ↔ Milford Sound</name>
+        <description>Milford Sound 一日游示意；建议参加大巴+游船团。 KML 连线为行程示意，实际道路请打开 Google Maps 导航。</description>
+        <styleUrl>#routeStyle</styleUrl>
+        <LineString><tessellate>1</tessellate><coordinates>168.6610000,-45.0321923,0 167.7180530,-45.4144510,0 167.8687603,-44.6190189,0 167.7180530,-45.4144510,0 168.6610000,-45.0321923,0</coordinates></LineString>
+      </Placemark>
+      <Placemark>
+        <name>8/24 Queenstown → Skyline → ZQN → AKL Airport</name>
+        <description>上午轻观光，下午/傍晚飞奥克兰机场过夜。 KML 连线为行程示意，实际道路请打开 Google Maps 导航。</description>
+        <styleUrl>#routeStyle</styleUrl>
+        <LineString><tessellate>1</tessellate><coordinates>168.6610000,-45.0321923,0 168.6496023,-45.0264147,0 168.7434399,-45.0193000,0 174.7903363,-37.0065512,0</coordinates></LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>关键活动点位</name>
+      <Placemark>
+        <name>Auckland Airport</name>
+        <description>每日行程关键点位。</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point><coordinates>174.7903363,-37.0065512,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Queenstown Airport</name>
+        <description>每日行程关键点位。</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point><coordinates>168.7434399,-45.0193000,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Queenstown CBD</name>
+        <description>每日行程关键点位。</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point><coordinates>168.6610000,-45.0321923,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Coronet Peak Ski Area</name>
+        <description>每日行程关键点位。</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point><coordinates>168.7388744,-44.9222017,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>The Remarkables Ski Area</name>
+        <description>每日行程关键点位。</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point><coordinates>168.8168978,-45.0549855,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Arrowtown</name>
+        <description>每日行程关键点位。</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point><coordinates>168.8350761,-44.9405627,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Cardrona Hotel</name>
+        <description>每日行程关键点位。</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point><coordinates>169.0035338,-44.8815382,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Wanaka Town Centre</name>
+        <description>每日行程关键点位。</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point><coordinates>169.1364637,-44.6941691,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Cardrona Alpine Resort</name>
+        <description>每日行程关键点位。</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point><coordinates>168.9497926,-44.8657038,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Treble Cone Ski Area</name>
+        <description>每日行程关键点位。</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point><coordinates>168.8959500,-44.6327200,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>That Wanaka Tree</name>
+        <description>每日行程关键点位。</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point><coordinates>169.1175644,-44.6983546,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Mount Iron Track Car Park</name>
+        <description>每日行程关键点位。</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point><coordinates>169.1554322,-44.6936142,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Onsen Hot Pools</name>
+        <description>每日行程关键点位。</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point><coordinates>168.6854275,-44.9809952,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Te Anau</name>
+        <description>每日行程关键点位。</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point><coordinates>167.7180530,-45.4144510,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Milford Sound</name>
+        <description>每日行程关键点位。</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point><coordinates>167.8687603,-44.6190189,0</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Skyline Queenstown</name>
+        <description>每日行程关键点位。</description>
+        <styleUrl>#pointStyle</styleUrl>
+        <Point><coordinates>168.6496023,-45.0264147,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
